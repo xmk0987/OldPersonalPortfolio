@@ -1,0 +1,52 @@
+:root {
+    --main-color: #000000;
+    --secondary-color: #CF0A0A;
+    --third-color: #DC5F00;
+    --fourth-color: rgba(218, 218, 218, 0.947);
+    --header-font: "Play";
+    --basic-font: "Wix Madefor Text";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: var(--basic-font);
+    line-height: 1.6;
+    color:var(--fourth-color);
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: var(--main-color);
+
+}
+
+body, #root, .app-container{
+    width: 100%;
+
+}
+
+.app-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
+    font-size: 5rem;
+    font-family: var(--header-font);
+    line-height: normal;
+}
+
+.secondary-header {
+    font-size: 2rem;
+    color: var(--secondary-color);
+
+}
+
+

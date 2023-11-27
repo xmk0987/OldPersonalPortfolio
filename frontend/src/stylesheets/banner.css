@@ -1,0 +1,72 @@
+
+
+.banner-container {
+    background-color: var(--main-color);
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    background: linear-gradient(var(--main-color) 20%, var(--third-color));
+    /*    background: linear-gradient(var(--main-color), var(--fourth-color));
+    Kysy kumpi parempi
+*/
+}
+
+.banner-header-text {
+    color: var(--fourth-color);
+    letter-spacing: 2px;
+    border-right: 2px solid var(--fourth-color);
+}
+
+
+.banner-text-name {
+    color: var(--secondary-color);
+}
+
+
+.banner-sec-text {
+    color: var(--fourth-color);
+    border-right: 2px solid var(--fourth-color);
+}
+
+
+.name-done{
+    border-right:none;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .main-header{
+        font-size:3rem;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .main-header{
+        font-size:2rem;
+    }
+
+    .secondary-header{
+        font-size: 1rem;
+    }   
+}
+
+
+@media only screen and (max-width: 500px){
+    .banner-container{
+        height: 40vh;
+    }
+
+    .main-header{
+        font-size:1rem;
+    }
+
+    .secondary-header {
+        font-size: 0.5rem;
+    }
+    
+}
