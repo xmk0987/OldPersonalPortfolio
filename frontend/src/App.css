@@ -35,6 +35,8 @@ body, #root, .app-container{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+
 }
 
 .main-header {

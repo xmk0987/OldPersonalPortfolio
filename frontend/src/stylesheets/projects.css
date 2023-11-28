@@ -1,2 +1,98 @@
 
 
+.projects-container {
+    margin: 10rem 0;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+}
+
+.projects-header{
+    margin: 1rem auto;
+}
+
+.center-project {
+    width: 900px;
+    height: 500px;
+    position:relative;
+}
+
+.image{
+    width: inherit;
+    height: inherit;
+}
+
+.nextButton{
+    height: 100px;
+    width: 50px;
+    background-color: rgba(27, 27, 27, 0.076);
+    border:none;
+}
+
+.nextButton ion-icon{
+    color:var(--fourth-color);
+    height: 100px;
+    width: 50px;
+}
+
+.leftProjectButton {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rightProjectButton {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nextButton:hover {
+    cursor: pointer;
+}
+
+.left-project {
+    transform: translate(-140%, 5%);
+}
+
+.right-project {
+    transform: translate(140%, 5%);
+}
+
+.side-project{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.project-details {
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.project-detail-title{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-detail-description{
+    margin-bottom: 1rem;
+}
+
+.project-more-info{
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.project-more-info:hover {
+    cursor: pointer;
+    color: var(--fourth-color);
+}
