@@ -6,7 +6,7 @@ import '../stylesheets/contact.css';
 const Contact = () => {
 
     return(
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <h3 className="secondary-header contact-header">Contact</h3>
             <p className="contact-text">If you want to work together, feel free to contact me on any of the following</p>
             <div className="contact-buttons">

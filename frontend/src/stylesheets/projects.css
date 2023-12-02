@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     position: relative; 
-    background-color: #161616;
+    background-color: var(--second-main);
 }
 
 .projects-header{

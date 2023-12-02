@@ -5,7 +5,7 @@ import '../stylesheets/about.css';
 const About = () => {
 
     return(
-        <main className="about-container">
+        <main className="about-container" id="about">
             <img src={require("../images/onni1.jpg")} alt="Onni Vitikainen" className="about-profile-image"></img>
             <div className="about-text-container">
                 <h3 className="secondary-header about-header">About</h3>

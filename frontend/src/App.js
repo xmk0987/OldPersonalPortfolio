@@ -6,18 +6,20 @@ import Home from './Home';
 import FastSpots from './projects/fastspots';
 import TodoList from './projects/todolist';
 import SnowDino from './projects/snowdino';
-import PlaySnowDino from './projects/playdino';
+import Navigation from './components/navigation';
 
 function App() {
 
    return (
-      <Routes>
-         <Route path="/" element={<Home />} />
-         <Route path="/fastspotsProject" element={<FastSpots />} />
-         <Route path="/todolistProject" element={<TodoList />} />
-         <Route path="/snowdinoProject" element={<SnowDino />} />
-         <Route path='/playSnowDino' element={<PlaySnowDino/>} />
-      </Routes>
+      <div>
+         <Navigation />
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/fastspotsProject" element={<FastSpots />} />
+            <Route path="/todolistProject" element={<TodoList />} />
+            <Route path="/snowdinoProject" element={<SnowDino />} />
+         </Routes>
+      </div>
    );
 }
 export default App;

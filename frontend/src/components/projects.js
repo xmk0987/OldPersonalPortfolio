@@ -61,7 +61,7 @@ const Projects = () => {
     }
 
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <h3 className="secondary-header projects-header">Projects</h3>
             <div className="center-project">
                 <img className="image" src={centerImage} alt="Project by Onni"></img>

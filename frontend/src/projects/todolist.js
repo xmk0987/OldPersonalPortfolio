@@ -4,7 +4,6 @@ import '../stylesheets/project.css';
 
 import login from '../images/projects/todo/login2.png';
 import todolist from '../images/projects/todo/todolist.png';
-import todolistclose from '../images/projects/todo/todolistclose.png';
 
 
 const TodoList = () => {
@@ -19,7 +18,7 @@ const TodoList = () => {
                 <div className="single-project-content">
                     <div className="single-project-intro">
                         <p>The goal of this project was to create a online todolist with user registration and save todos to sql database. 
-                            This project was also aimed to practice the Angular framework and focus more on the design.
+                            This project was also aimed to practice the Angular framework and focus more on the design. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-kfg5.onrender.com" target="_blank">Try it out.</a>
                         </p>
                     </div>
                     <div className="lesson-container">
@@ -29,7 +28,7 @@ const TodoList = () => {
                         </p>
                         <p>
                             Skills learned during this project were creating own authorization with JWT and using SQL driven databases and to edit them.
-                             Protecting database from SQL injection.
+                             Protecting database from SQL injection. Checking user signup and login. Password hashing
                         </p>
                         <p>
                             This project came with valuable lesssons about SQL and protecting own databases from SQL injection. Learned more about properly structuring code and using middlewares and services.
@@ -42,11 +41,11 @@ const TodoList = () => {
                 <div className="single-project-images">
                     <div class="project project1">
                         <h3 className="project-title">Login</h3>
-                        <img className="project-image" src={login} />
+                        <img className="project-image" src={login} alt="Todolist login"/>
                     </div>
                     <div class="project project1">
                         <h3 className="project-title">Todolist</h3>
-                        <img className="project-image" src={todolist} />
+                        <img className="project-image" src={todolist} alt="Todolist"/>
                     </div>
                 </div>
             </div>

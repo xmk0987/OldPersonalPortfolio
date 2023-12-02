@@ -1,7 +1,6 @@
 
 .about-container{
-    margin: 8rem;
-    height: 80vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
+    height: 100vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
     width: 100%;
     display:flex;
     align-items: center;

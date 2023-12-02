@@ -19,7 +19,7 @@ const FastSpots = () => {
                 <div className="single-project-content">
                     <div className="single-project-intro">
                         <p>The goal of this project was to create a third party website for Spotify users to speed up the playlist creation and to be 
-                            able to see top songs and artists all year around. If you have a Spotify account <a className="fastspotlink" href="https://www.fastspots.net/" target="_blank">give it a try.</a> Hosted through free render so initial load has a delay.
+                            able to see top songs and artists all year around. If you have a Spotify account <a className="fastspotlink" rel="noreferrer" href="https://www.fastspots.net/" target="_blank">give it a try.</a> Hosted through free render so initial load has a delay.
                         </p>
                     </div>
                     <div className="lesson-container">
@@ -43,19 +43,19 @@ const FastSpots = () => {
                 <div className="single-project-images">
                     <div class="project project1">
                         <h3 className="project-title">Login</h3>
-                        <img className="project-image" src={login} />
+                        <img className="project-image" src={login} alt="Login"/>
                     </div>
                     <div class="project project1">
                         <h3 className="project-title">Playlist Start</h3>
-                        <img className="project-image" src={playliststart} />
+                        <img className="project-image" src={playliststart} alt="Playlist start"/>
                     </div>
                     <div class="project project1">
                         <h3 className="project-title">Playlist Editor</h3>
-                        <img className="project-image" src={playlistEditor} />
+                        <img className="project-image" src={playlistEditor} alt="Playlist editor"/>
                     </div>
                     <div class="project project1">
                         <h3 className="project-title">Add playlist</h3>
-                        <img className="project-image" src={addToPlaylist} />
+                        <img className="project-image" src={addToPlaylist} alt="Add to playlist"/>
                     </div>
                 </div>
             </div>

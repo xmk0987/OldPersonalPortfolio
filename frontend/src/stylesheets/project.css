@@ -3,6 +3,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .single-project-inner{
@@ -43,9 +44,14 @@
     align-items: center;
 }
 
-.fastspotlink:hover {
-    cursor: pointer;
+.fastspotlink, .snowdinolink, .todolink{
     color: var(--third-color);
+
+}
+
+.fastspotlink:hover, .snowdinolink:hover, .todolink:hover {
+    cursor: pointer;
+    color: var(--fourth-color);
 }
 
 .single-project-intro p{
@@ -93,6 +99,7 @@
 
 
 
+
 @media only screen and (max-width: 900px){
     .single-project-inner{
         width: 80%;
@@ -119,7 +126,9 @@
         font-size: 2rem;
     }
 
-    .single-project-intro p, .lesson-container p{
+    .single-project-intro p, .lesson-container p, .single-project-intro a{
         font-size: 0.8rem;
     }
 }
+
+

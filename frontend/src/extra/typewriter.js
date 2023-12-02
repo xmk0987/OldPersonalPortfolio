@@ -8,7 +8,6 @@ const typeWriter = (config) => {
         if (l === 0) {
             if (type === 3){
               await typeWriterReverse(text, 22, setTextCallback);
-
             }
             resolve();
             return;
