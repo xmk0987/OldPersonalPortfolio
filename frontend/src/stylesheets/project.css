@@ -1,0 +1,125 @@
+
+.single-project-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-project-inner{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-project-header {
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+
+.single-project-header-image{
+    width: 100%;
+    margin-top: 1.5rem;
+    display:flex;
+    justify-content: center;
+}
+
+.single-project-header-image img{
+    min-width: 100%;
+    height:auto;
+}
+
+
+.single-project-content{
+    margin-top: 3rem;
+}
+
+.single-project-intro{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fastspotlink:hover {
+    cursor: pointer;
+    color: var(--third-color);
+}
+
+.single-project-intro p{
+    width: 100%;
+}
+
+.lesson-container{
+    margin-top: 5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+
+
+
+
+.project-images-container{
+    margin-top: 5rem;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-project-images {
+    width: 100%;
+    max-width: 1508px;
+    height: auto;
+    display:grid; 
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.project-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title{
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .single-project-inner{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .project-images-container{
+        width: 100%;
+    }
+    .single-project-images {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+
+@media only screen and (max-width: 520px){
+    .single-project-images {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .single-project-header{
+        font-size: 2rem;
+    }
+
+    .single-project-intro p, .lesson-container p{
+        font-size: 0.8rem;
+    }
+}

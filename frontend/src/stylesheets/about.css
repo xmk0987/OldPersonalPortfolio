@@ -1,11 +1,12 @@
 
 .about-container{
-    margin-top: 5rem;
-    height: 100vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
-    width: 60%;
+    margin: 8rem;
+    height: 80vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
+    width: 100%;
     display:flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    gap: 3rem; /* Kuinka iso väli*/
 }
 
 .about-header{

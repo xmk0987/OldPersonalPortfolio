@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { handleNextLeft, handleNextRight } from "../extra/projectSpinner";
 
@@ -32,7 +32,6 @@ const Projects = () => {
         route: "/snowdinoProject"
     }
 
-    
     const [projectArray, setProjectArray] = useState( [fastSpotsProject, todoListProject, snowDinoProject]);
     const [leftImage, setLeftImage] = useState(projectArray[0].image);
     const [centerImage, setCenterImage] = useState(projectArray[1].image);
@@ -66,8 +65,8 @@ const Projects = () => {
             <h3 className="secondary-header projects-header">Projects</h3>
             <div className="center-project">
                 <img className="image" src={centerImage} alt="Project by Onni"></img>
-                <button className="leftProjectButton nextButton" onClick={handleRightClick}><ion-icon name="chevron-forward-outline"></ion-icon></button>
-                <button className="rightProjectButton nextButton" onClick={handleLeftClick}><ion-icon name="chevron-back-outline"></ion-icon></button>
+                <button className="leftProjectButton nextButton" onClick={handleLeftClick}><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                <button className="rightProjectButton nextButton" onClick={handleRightClick}><ion-icon name="chevron-back-outline"></ion-icon></button>
             </div>
             <div className="left-project side-project">
                 <img className="image" src={leftImage} alt="Project by Onni"></img>
