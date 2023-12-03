@@ -5,7 +5,7 @@ import '../stylesheets/navigation.css';
 const Navigation = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
     const [visible, setVisible] = useState(true);
-    const [showProjectPopup, setProjectPopup] = useState(true);
+    const [showProjectPopup, setProjectPopup] = useState(false);
   
     useEffect(() => {
         const handleScroll = () => {
