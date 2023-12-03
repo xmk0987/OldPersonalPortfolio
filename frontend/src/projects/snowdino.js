@@ -24,7 +24,7 @@ const SnowDino = () => {
                         </p>
                     </div>
                     <div className="lesson-container">
-                        <h2  className="secondary-header lesson-header" >Lessons</h2>
+                        <h2  className="secondary-header lesson-header" >Knowledge</h2>
                         <p>
                             This project was done with Python using the Pygame library.
                         </p>

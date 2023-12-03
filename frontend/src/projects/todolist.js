@@ -22,16 +22,17 @@ const TodoList = () => {
                         </p>
                     </div>
                     <div className="lesson-container">
-                        <h2  className="secondary-header lesson-header" >Lessons</h2>
+                        <h2  className="secondary-header lesson-header" >Knowledge</h2>
                         <p>
                             This project was done as a Angular/Express project. The database used was MySQL. 
                         </p>
                         <p>
                             Skills learned during this project were creating own authorization with JWT and using SQL driven databases and to edit them.
-                             Protecting database from SQL injection. Checking user signup and login. Password hashing
+                            Protecting database from SQL injection. Checking user signup and login. Password hashing. SQL and Angular code deployment.
                         </p>
                         <p>
-                            This project came with valuable lesssons about SQL and protecting own databases from SQL injection. Learned more about properly structuring code and using middlewares and services.
+                            This project came with valuable lessons about proberly splitting the code into parts. Using services, middleware...
+                            Also came with a valuable lesson that different types of OS have different implementations for css, for example scrollbars.
                         </p>
                     </div>
                 </div>

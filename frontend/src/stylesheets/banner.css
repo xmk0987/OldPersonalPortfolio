@@ -9,7 +9,7 @@
     align-items: center;
     flex-direction: column;
     position:relative;
-    background: linear-gradient(var(--main-color) 20%, var(--third-color));
+    background: linear-gradient( var(--main-color) 0%, var(--main-color) 60%,  var(--third-color)100%);
     /*    background: linear-gradient(var(--main-color), var(--fourth-color));
     Kysy kumpi parempi
 */
@@ -38,35 +38,46 @@
 }
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1180px){
     .main-header{
         font-size:3rem;
     }
 }
 
+@media only screen and (max-width: 870px){
+    .banner-container {
+        width: 100%;
+        height: 60vh;
+    }
+}
 
-@media only screen and (max-width: 750px){
+
+@media only screen and (max-width: 715px){
     .main-header{
         font-size:2rem;
     }
 
-    .secondary-header{
-        font-size: 1rem;
-    }   
+    #banner-sec-text{
+        font-size: 1.3rem;
+    }
 }
 
-
-@media only screen and (max-width: 500px){
-    .banner-container{
-        height: 40vh;
+@media only screen and (max-width: 490px){
+    .main-header{
+        font-size:1.5rem;
     }
 
+    #banner-sec-text{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 377px){
     .main-header{
         font-size:1rem;
     }
 
-    .secondary-header {
-        font-size: 0.5rem;
+    #banner-sec-text{
+        font-size: 0.7rem;
     }
-    
 }

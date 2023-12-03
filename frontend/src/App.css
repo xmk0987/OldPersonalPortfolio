@@ -27,12 +27,12 @@ body {
 }
 
 
-body, #root, .app-container{
+body, #root, .personal-portfolio-container{
     width: 100%;
 
 }
 
-.app-container{
+.personal-portfolio-container{
     display:flex;
     justify-content: center;
     flex-direction: column;

@@ -3,7 +3,6 @@
 
 .contact-container {
     width: 100%;
-    height: 60vh;
     background-color: var(--main-color);
     display:flex;
     flex-direction: column;
@@ -12,18 +11,19 @@
 
 
 .contact-header{
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .contact-text{
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .contact-buttons{
     margin-top: 2rem;
+    margin-bottom: 3rem;
     width: 15%;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact-buttons a{
@@ -55,4 +55,49 @@
 
 .facebookLink:hover{
     background-color: 	#4267B2;
+}
+
+@media only screen and (max-width: 1400px){
+    .contact-buttons{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .contact-text{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    .contact-buttons{
+        width: 40%;
+        justify-content: space-evenly;
+
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .contact-text{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-buttons{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        width: 50%;
+    }
+
+    .contact-header{
+        margin-top: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px){
+    .contact-buttons{
+        width: 80%;
+    }
+
 }

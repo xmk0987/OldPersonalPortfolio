@@ -22,6 +22,7 @@
 .nav-list li a{
     text-decoration: none;
     font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .nav-list li a:hover, .projects-button:hover{
@@ -41,6 +42,8 @@
     border:none;
     background-color: transparent;
     font-size: 0.8rem;
+    font-weight: bold;
+
 }
 
 .project-popup{

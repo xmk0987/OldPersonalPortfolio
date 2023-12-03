@@ -8,7 +8,7 @@ import Contact from './components/contact';
 
 const Home = () => {
     return (
-        <div className='app-container'>
+        <div className='personal-portfolio-container'>
             <Header />
             <About />
             <Projects />

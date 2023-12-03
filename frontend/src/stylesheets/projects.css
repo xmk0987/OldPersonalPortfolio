@@ -99,3 +99,26 @@
     cursor: pointer;
     color: var(--fourth-color);
 }
+
+
+@media only screen and (max-width: 900px){
+    .center-project {
+        width:  100%;
+        height: auto;
+        position:relative;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .project-detail-title{
+        font-size: 1rem;
+    }
+    .project-detail-description{
+        font-size: 0.8rem;
+    }
+    .project-more-info{
+        font-size: 0.8rem;
+    }
+
+}

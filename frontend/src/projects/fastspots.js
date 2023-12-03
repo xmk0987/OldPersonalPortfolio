@@ -19,11 +19,13 @@ const FastSpots = () => {
                 <div className="single-project-content">
                     <div className="single-project-intro">
                         <p>The goal of this project was to create a third party website for Spotify users to speed up the playlist creation and to be 
-                            able to see top songs and artists all year around. If you have a Spotify account <a className="fastspotlink" rel="noreferrer" href="https://www.fastspots.net/" target="_blank">give it a try.</a> Hosted through free render so initial load has a delay.
+                            able to see top songs and artists all year around. If you have a Spotify account <a className="fastspotlink" rel="noreferrer" href="https://www.fastspots.net/" target="_blank">give it a try</a>. 
+                            Hosted through free render so initial load has a delay. Currently only accessible to people who I have allowed access. 
+                            Publication under review by Spotify.
                         </p>
                     </div>
                     <div className="lesson-container">
-                        <h2  className="secondary-header lesson-header" >Lessons</h2>
+                        <h2  className="secondary-header lesson-header" >Knowledge</h2>
                         <p>
                             This project was done as a React/Express project. The database used was Redis. 
                         </p>

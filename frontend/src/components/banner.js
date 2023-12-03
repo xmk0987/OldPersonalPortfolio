@@ -89,7 +89,7 @@ const Header = () => {
                 <h1 className ={`main-header banner-header-text ${nameDone ? 'name-done' : ''}`} >{nameSentence}<span className="banner-text-name main-header">{name}</span></h1>
             </div>
             <div>
-                <h2 className ={`banner-sec-text secondary-header ${iAmDone ? 'name-done' : ''}`}>{iAm}</h2>
+                <h2 className ={`banner-sec-text secondary-header ${iAmDone ? 'name-done' : ''}` } id="banner-sec-text">{iAm}</h2>
             </div>
         </header>
     );
