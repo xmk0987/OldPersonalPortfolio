@@ -17,8 +17,8 @@ const TodoList = () => {
                 </div>
                 <div className="single-project-content">
                     <div className="single-project-intro">
-                        <p>The goal of this project was to create a online todolist with user registration and save todos to sql database. 
-                            This project was also aimed to practice the Angular framework and focus more on the design. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-kfg5.onrender.com" target="_blank">Try it out</a>. 
+                        <p>An online todolist with user registration and saving todos to sql database. 
+                            This project was also aimed to practice the Angular framework. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-kfg5.onrender.com" target="_blank">Try it out</a>. 
                             Hosted through free Render service so initial load has a delay.
                         </p>
                     </div>

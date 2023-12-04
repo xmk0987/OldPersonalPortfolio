@@ -45,7 +45,7 @@ const Navigation = () => {
             <ul className='nav-list'>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/#about'>About</a></li>
-                <div className='project-popup-container'>
+                <div className='project-popup-container' onMouseOver={() => (setProjectPopup(true))} onMouseLeave={() => setProjectPopup(false)}>
                     <li><button className='projects-button' onClick={() => setProjectPopup(!showProjectPopup)}>Projects</button></li>
                     {showProjectPopup ? projectPopup() : ''}
                 </div>
