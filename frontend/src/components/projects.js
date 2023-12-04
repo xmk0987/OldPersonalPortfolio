@@ -6,7 +6,7 @@ import { handleNextLeft, handleNextRight } from "../extra/projectSpinner";
 import '../stylesheets/projects.css';
 import todoImage from "../images/projects/todo/login.png";
 import fsImage from "../images/projects/fastspots/toplists.png";
-import sdImage from "../images/projects/snowdino/snowdino2.png";
+import smallImage from "../images/small.png";
 
 
 
@@ -26,10 +26,10 @@ const Projects = () => {
     }
 
     const snowDinoProject = {
-        image: sdImage,
-        title: "Snow Dino",
-        description: "A own recreation of the legendary Google Dino Run",
-        route: "/snowdinoProject"
+        image: smallImage,
+        title: "Small Projects",
+        description: "Some smaller sized projects using different libraries",
+        route: "/smallProjects"
     }
 
     const [projectArray, setProjectArray] = useState( [fastSpotsProject, todoListProject, snowDinoProject]);

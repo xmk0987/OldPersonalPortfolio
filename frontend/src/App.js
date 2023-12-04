@@ -3,9 +3,9 @@ import './App.css';
 
 
 import Home from './Home';
+import ProjectGroup from './projects/projectsGroup';
 import FastSpots from './projects/fastspots';
 import TodoList from './projects/todolist';
-import SnowDino from './projects/snowdino';
 import Navigation from './components/navigation';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/fastspotsProject" element={<FastSpots />} />
             <Route path="/todolistProject" element={<TodoList />} />
-            <Route path="/snowdinoProject" element={<SnowDino />} />
+            <Route path="/smallProjects" element={<ProjectGroup />} />
          </Routes>
       </div>
    );

@@ -1,0 +1,45 @@
+
+.small-project-container{
+    width: 90%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.small-project-main-header{
+    margin-bottom: 3rem;
+}
+
+.small-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 555px;
+    overflow: scroll;
+}
+
+.small-project > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.single-project-image{
+    width: 100%;
+    height: 300px;
+}
+
+.small-project-desc{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.single-project-title{
+    margin-top: 0.3rem;
+}

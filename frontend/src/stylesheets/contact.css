@@ -53,8 +53,8 @@
     background-color: var(--third-color);
 }
 
-.facebookLink:hover{
-    background-color: 	#4267B2;
+.githubLink:hover{
+    background-color: 	#4078c0;
 }
 
 @media only screen and (max-width: 1400px){
