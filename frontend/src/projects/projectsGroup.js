@@ -52,7 +52,7 @@ const ProjectGroup = () => {
                     </div>
                 </div>
                 <div className="small-project">
-                    <h3 className="single-project-title">Programming 3 Group Work</h3>
+                    <h3 className="single-project-title">Roadwatch</h3>
                     <img className="single-project-image" src={roadwatch} alt="Bar chart US GDP"/>
                     <div className="small-project-desc">
                         <p>A group work from a course.</p>
