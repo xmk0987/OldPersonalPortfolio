@@ -13,7 +13,7 @@ const ProjectGroup = () => {
 
     return (
         <div className="single-project-container">
-            <h1 className="single-project-header small-project-main-header">Small Project Collection</h1>
+            <h1 className="small-project-main-header" >Small Project Collection</h1>
             <div className="small-project-container">
                 <div className="small-project">
                     <h3 className="single-project-title">Snow Dino</h3>                      

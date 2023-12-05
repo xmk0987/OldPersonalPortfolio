@@ -5,21 +5,24 @@
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    margin-bottom: 5rem;
+    align-items: center;
 }
 
 .small-project-main-header{
     margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secondary-color);
 }
 
 .small-project{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    max-width: 500px;
+    width: 500px;
     height: 555px;
-    overflow: scroll;
+    text-align: center;
 }
 
 .small-project > *:not(:last-child) {
@@ -42,4 +45,11 @@
 
 .single-project-title{
     margin-top: 0.3rem;
+}
+
+@media only screen and (max-width: 860px){
+    .small-project-main-header{
+        font-size: 2rem !important;
+        margin-bottom: 1rem;
+    }
 }
