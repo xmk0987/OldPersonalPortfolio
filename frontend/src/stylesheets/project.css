@@ -76,6 +76,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .single-project-images {
@@ -97,12 +98,25 @@
     text-align: center;
 }
 
+.single-project-video-container{
+    display:flex;
+    justify-content: center;
+}
 
+.project-video{
+    width: 65%;
+}
 
+.video-header{
+    margin-bottom: 2rem;
+}
 
 @media only screen and (max-width: 900px){
     .single-project-inner{
         width: 80%;
+    }
+    .project-video{
+        width: 100%;
     }
 }
 
@@ -118,6 +132,10 @@
 
 
 @media only screen and (max-width: 520px){
+    .project-images-container, .single-project-content, .lesson-container{
+        margin-top: 3rem;
+    }
+
     .single-project-images {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }

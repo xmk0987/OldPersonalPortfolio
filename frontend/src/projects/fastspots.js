@@ -2,11 +2,8 @@ import React from "react";
 import '../stylesheets/project.css';
 
 
-import login from '../images/projects/fastspots/login.png';
-import playlistEditor from '../images/projects/fastspots/playlisteditor.png';
-import playliststart from '../images/projects/fastspots/playliststart.png';
 import toplists from '../images/projects/fastspots/toplists.png';
-import addToPlaylist from '../images/projects/fastspots/addToPlaylist.png';
+import fastSpotsIntroVid from '../images/fastspotsintro.mp4';
 
 const FastSpots = () => {    
     return (
@@ -41,24 +38,9 @@ const FastSpots = () => {
                 </div>
             </div>
             <div className="project-images-container">
-                <h2  className="secondary-header lesson-header">Images</h2>
-                <div className="single-project-images">
-                    <div class="project project1">
-                        <h3 className="project-title">Login</h3>
-                        <img className="project-image" src={login} alt="Login"/>
-                    </div>
-                    <div class="project project1">
-                        <h3 className="project-title">Playlist Start</h3>
-                        <img className="project-image" src={playliststart} alt="Playlist start"/>
-                    </div>
-                    <div class="project project1">
-                        <h3 className="project-title">Playlist Editor</h3>
-                        <img className="project-image" src={playlistEditor} alt="Playlist editor"/>
-                    </div>
-                    <div class="project project1">
-                        <h3 className="project-title">Add playlist</h3>
-                        <img className="project-image" src={addToPlaylist} alt="Add to playlist"/>
-                    </div>
+                <h2  className="secondary-header video-header">Media</h2>
+                <div className="single-project-video-container">
+                    <video className="project-video" src={fastSpotsIntroVid} alt="Todolist login" autoPlay loop muted controls/>
                 </div>
             </div>
         </div>

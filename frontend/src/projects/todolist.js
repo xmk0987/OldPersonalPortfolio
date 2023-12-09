@@ -2,9 +2,8 @@ import React from "react";
 import '../stylesheets/project.css';
 
 
-import login from '../images/projects/todo/login2.png';
 import todolist from '../images/projects/todo/todolist.png';
-
+import todoVid from '../images/todointro.mp4';
 
 const TodoList = () => {
     
@@ -39,16 +38,9 @@ const TodoList = () => {
                 </div>
             </div>
             <div className="project-images-container">
-                <h2  className="secondary-header lesson-header">Images</h2>
-                <div className="single-project-images">
-                    <div class="project project1">
-                        <h3 className="project-title">Login</h3>
-                        <img className="project-image" src={login} alt="Todolist login"/>
-                    </div>
-                    <div class="project project1">
-                        <h3 className="project-title">Todolist</h3>
-                        <img className="project-image" src={todolist} alt="Todolist"/>
-                    </div>
+                <h2  className="secondary-header video-header">Media</h2>
+                <div className="single-project-video-container">
+                    <video className="project-video" src={todoVid} alt="Todolist login" autoPlay loop muted controls/>
                 </div>
             </div>
         </div>
