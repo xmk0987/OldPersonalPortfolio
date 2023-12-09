@@ -1,11 +1,19 @@
 
 .about-container{
-    height: 100vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
+    height: 100%; /* Onko 100vh hyvä vai pitäiskö pienentää*/
     width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem; /* Kuinka iso väli*/
+}
+
+.about-center-container{
+    width: 70%;
+    margin: 3rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 .about-header{

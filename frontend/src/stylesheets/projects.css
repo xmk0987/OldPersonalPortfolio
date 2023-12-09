@@ -12,7 +12,7 @@
 }
 
 .projects-header{
-    margin: 2rem auto;
+    margin: 2rem 0 1rem 0;
 }
 
 .center-project {
@@ -90,16 +90,26 @@
     margin-bottom: 1rem;
 }
 
+.project-more-info-container{
+    display:inline-flex;
+    gap: 0.5rem;
+}
+
 .project-more-info{
     color: var(--third-color);
     text-decoration: none;
+    margin-bottom: 0.5rem;
 }
+
 
 .project-more-info:hover {
     cursor: pointer;
     color: var(--fourth-color);
 }
 
+.dont-show{
+    display: none;
+}
 
 @media only screen and (max-width: 900px){
     .center-project {

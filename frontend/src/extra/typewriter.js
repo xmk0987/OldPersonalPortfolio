@@ -16,12 +16,12 @@ const typeWriter = (config) => {
         text += fullText[index];
   
         if (setTextCallback) {
-          setTextCallback(text, type);
+          setTextCallback(text);
         }
   
         setTimeout(() => {
           innerTypeWriter(l - 1, index + 1, text, fullText, type);
-        }, 100);
+        }, 60);
       };
   
       innerTypeWriter(l, index, text, fullText, type);
@@ -44,7 +44,7 @@ const typeWriterReverse = (text, deleteAmount, setTextCallback) => {
     return new Promise(resolve => {
         setTimeout(() => {
         resolve(typeWriterReverse(newText, deleteAmount - 1, setTextCallback));
-        }, 100);
+        }, 60);
     });
 };
   
