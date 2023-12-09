@@ -82,7 +82,7 @@ const Projects = () => {
                         rel="noreferrer"   href={currentProject.url ? currentProject.url : '#'}
                         target="_blank">Give it a try
                     </a>
-                    <p className={` ${showTryUrl? '' : 'dont-show'}`} > or </p>
+                    <p className={` ${showTryUrl? '' : 'dont-show'} about-text or-text`} > or </p>
                     <a className="project-more-info" href={currentProject.route}>Find out more</a>
                 </div>
             </div>

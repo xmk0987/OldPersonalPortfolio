@@ -72,6 +72,17 @@
     }
 }
 
+@media only screen and (max-width: 490px){
+    .main-header{
+        font-size:1.5rem;
+    }
+
+    #banner-sec-text{
+        font-size: 0.8rem;
+    }
+}
+
+
 @media only screen and (max-width: 377px){
     .main-header{
         font-size:1rem;

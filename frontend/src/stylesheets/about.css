@@ -53,9 +53,6 @@
         font-size: 1.5rem;
     }
 
-    .about-text{
-        font-size: 0.9rem;
-    }
 
     .about-profile-image {
         max-width:400px;
@@ -72,11 +69,6 @@
         gap: 0rem;
     }
 
-
-    .about-text{
-        font-size: 1rem;
-    }
-    
     .about-profile-image {
         max-width:400px;
     }
@@ -106,5 +98,9 @@
     .about-profile-image {
         max-width: 90%;
         height: auto;
+    }
+
+    .about-text{
+        font-size: 0.8rem;
     }
 }
