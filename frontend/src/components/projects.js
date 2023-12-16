@@ -27,14 +27,14 @@ const Projects = () => {
         url: "https://www.fastspots.net/"
     }
 
-    const snowDinoProject = {
+    const smallProject = {
         image: smallImage,
         title: "Small Projects",
         description: "Some smaller sized projects using different libraries",
         route: "/smallProjects"
     }
 
-    const [projectArray, setProjectArray] = useState( [fastSpotsProject, todoListProject, snowDinoProject]);
+    const [projectArray, setProjectArray] = useState( [smallProject, todoListProject, fastSpotsProject]);
     const [centerImage, setCenterImage] = useState(projectArray[1].image);
     const [projectName, setProjectName ] = useState(projectArray[1].title);
     const [projectDesc, setProjectDesc ] = useState(projectArray[1].description);
@@ -57,7 +57,7 @@ const Projects = () => {
         setProjectName(array[1].title);
         setProjectDesc(array[1].description);
         setCurrentProject(array[1]);
-        if(array[1].url){
+        if(array[1].title === "Todo List"){
             setShowTryUrl(true);
         }
         else{
