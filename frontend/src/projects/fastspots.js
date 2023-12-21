@@ -17,8 +17,6 @@ const FastSpots = () => {
                     <div className="single-project-intro">
                         <p>FastSpots is a third party website for Spotify users to speed up the playlist creation and to be 
                             able to see top songs and artists all year around. If you have a Spotify account <a className="fastspotlink" rel="noreferrer" href="https://www.fastspots.net/" target="_blank">give it a try</a>. 
-                            Currently only accessible to people who I have allowed access. 
-                            Publication under review by Spotify.
                         </p>
                     </div>
                     <div className="lesson-container">

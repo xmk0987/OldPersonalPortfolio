@@ -57,7 +57,7 @@ const Projects = () => {
         setProjectName(array[1].title);
         setProjectDesc(array[1].description);
         setCurrentProject(array[1]);
-        if(array[1].title === "Todo List"){
+        if(array[1].url){
             setShowTryUrl(true);
         }
         else{
