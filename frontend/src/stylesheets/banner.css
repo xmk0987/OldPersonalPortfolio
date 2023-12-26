@@ -9,10 +9,7 @@
     align-items: center;
     flex-direction: column;
     position:relative;
-    background: linear-gradient( var(--main-color) 0%, var(--main-color) 60%,  var(--secondary-color)100%);
-    /*    background: linear-gradient(var(--main-color), var(--fourth-color));
-    Kysy kumpi parempi
-*/
+    background: linear-gradient( var(--main-color) 0%, var(--main-color) 80%,  var(--secondary-color)100%);
 }
 
 .banner-header-text {

@@ -7,6 +7,7 @@ import fireMov from '../images/projects/smallProjects/fire.mp4';
 import rainMov from '../images/projects/smallProjects/rain.mp4';
 import heatMap from '../images/projects/smallProjects/heatmap.png';
 import roadwatch from '../images/projects/smallProjects/roadwatch.png';
+import caseStudy from '../images/caseStudy.png'
 
 
 const ProjectGroup = () => {  
@@ -24,10 +25,10 @@ const ProjectGroup = () => {
                     </div>
                 </div>
                 <div className="small-project">
-                    <h3 className="single-project-title">US GDP Bar Chart</h3>
-                    <img className="single-project-image" src={barChart} alt="Bar chart US GDP"/>
+                    <h3 className="single-project-title">Rain Animation</h3>
+                    <video className="single-project-image" src={rainMov} alt="Game Bear Enemy" autoPlay loop muted/>
                     <div className="small-project-desc">
-                        <p>Bar chart using D3 library.</p>
+                        <p>Using canvas and drawing to create particle rain.</p>
                     </div>
                 </div>
                 <div className="small-project">
@@ -38,25 +39,29 @@ const ProjectGroup = () => {
                     </div>
                 </div>
                 <div className="small-project">
-                    <h3 className="single-project-title">Rain Animation</h3>
-                    <video className="single-project-image" src={rainMov} alt="Game Bear Enemy" autoPlay loop muted/>
+                    <h3 className="single-project-title">Data Analysis</h3>
+                    <img className="single-project-image" src={caseStudy} alt="Case study"/>
                     <div className="small-project-desc">
-                        <p>Using canvas and drawing to create particle rain.</p>
-                    </div>
-                </div>
-                <div className="small-project">
-                    <h3 className="single-project-title">Heat Chart</h3>
-                    <img className="single-project-image" src={heatMap} alt="Bar chart US GDP"/>
-                    <div className="small-project-desc">
-                        <p>Heat chart created with D3 library.</p>
+                        <p>Real Estate investing case study</p>
+                        <a className="snowdinolink" href="/dataAnalysis">Read more</a>
                     </div>
                 </div>
                 <div className="small-project">
                     <h3 className="single-project-title">Roadwatch</h3>
-                    <img className="single-project-image" src={roadwatch} alt="Bar chart US GDP"/>
+                    <img className="single-project-image" src={roadwatch} alt="Roadwatch app"/>
                     <div className="small-project-desc">
                         <p>A group work from a course.</p>
                         <p><a className="snowdinolink" rel="noreferrer" href="https://github.com/xmk0987/OHJSU-Ryhm-ty-" target="_blank">Link to Github</a></p>
+                    </div>
+                </div>
+                <div className="small-project">
+                    <h3 className="single-project-title">D3</h3>
+                    <div>
+                        <img className="single-project-image2" src={barChart} alt="Bar chart US GDP"/>
+                        <img className="single-project-image2" src={heatMap} alt="Heat chart"/>
+                    </div>
+                    <div className="small-project-desc">
+                        <p>Charts using the D3 library.</p>
                     </div>
                 </div>
             </div>

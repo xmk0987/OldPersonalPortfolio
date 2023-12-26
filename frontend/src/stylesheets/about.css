@@ -34,7 +34,7 @@
 
 
 .about-profile-image {
-    max-width:500px;
+    max-width:600px;
     margin-bottom: 3rem;
 }
 
@@ -64,13 +64,13 @@
 
 @media only screen and (max-width: 900px){
     .about-center-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: auto;
         gap: 0rem;
     }
 
     .about-profile-image {
-        max-width:400px;
+        max-width:600px;
     }
     
 }

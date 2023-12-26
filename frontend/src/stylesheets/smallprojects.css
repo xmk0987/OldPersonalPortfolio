@@ -34,6 +34,11 @@
     height: 300px;
 }
 
+.single-project-image2{
+    width: 50%;
+    height: 300px;
+}
+
 .small-project-desc{
     width: 80%;
     display:flex;

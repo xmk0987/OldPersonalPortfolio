@@ -32,6 +32,7 @@ const Navigation = () => {
                     <li><a href='/#projects'>Overview</a></li>
                     <li><a href='/fastspotsProject'>FastSpots</a></li>
                     <li><a href='/todolistProject'>Todo List</a></li>
+                    <li><a href='/dataAnalysis'>Data Analysis</a></li>
                     <li><a href='/smallProjects'>Small Projects</a></li>
                 </ul>
             </div>
