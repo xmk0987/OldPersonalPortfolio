@@ -17,7 +17,7 @@ const TodoList = () => {
                 <div className="single-project-content">
                     <div className="single-project-intro">
                         <p>An online todolist with user registration and saving todos to sql database. 
-                            This project was also aimed to practice the Angular framework. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-kfg5.onrender.com" target="_blank">
+                            This project was also aimed to practice the Angular framework. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-z6qc.onrender.com" target="_blank">
                                 Try it out.</a>                       
                         </p>
                     </div>

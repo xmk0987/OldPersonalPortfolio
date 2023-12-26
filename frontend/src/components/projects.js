@@ -16,7 +16,7 @@ const Projects = () => {
         title: "Todo List",
         description: "A online todolist with user authentication",
         route: "/todolistProject",
-        url: "https://onlinetodolist-kfg5.onrender.com"
+        url: "https://onlinetodolist-z6qc.onrender.com"
     }
 
     const fastSpotsProject = {
