@@ -8,6 +8,7 @@ import FastSpots from './projects/fastspots';
 import TodoList from './projects/todolist';
 import Navigation from './components/navigation';
 import DataAnalysis from './projects/dataAnalysis';
+import ToDo from './projects/toDo';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/todolistProject" element={<TodoList />} />
             <Route path="/dataAnalysis" element={<DataAnalysis />} />
             <Route path="/smallProjects" element={<ProjectGroup />} />
+            <Route path="/toDoProject" element={<ToDo />} />
          </Routes>
       </div>
    );

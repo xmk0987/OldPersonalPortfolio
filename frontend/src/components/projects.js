@@ -7,6 +7,7 @@ import '../stylesheets/projects.css';
 import todoImage from "../images/projects/todo/login.png";
 import fsImage from "../images/projects/fastspots/toplists.png";
 import smallImage from "../images/small.png";
+import teacherStudents from '../images/todoFront.png'
 
 
 
@@ -34,7 +35,15 @@ const Projects = () => {
         route: "/smallProjects"
     }
 
-    const [projectArray, setProjectArray] = useState( [smallProject, todoListProject, fastSpotsProject]);
+    const toDoProject = {
+        image: teacherStudents,
+        title: "ToDo",
+        description: "A group management system",
+        route: "/toDoProject",
+        url: "https://todo-ekwu.onrender.com"
+    }
+
+    const [projectArray, setProjectArray] = useState( [todoListProject, fastSpotsProject, toDoProject]);
     const [centerImage, setCenterImage] = useState(projectArray[1].image);
     const [projectName, setProjectName ] = useState(projectArray[1].title);
     const [projectDesc, setProjectDesc ] = useState(projectArray[1].description);

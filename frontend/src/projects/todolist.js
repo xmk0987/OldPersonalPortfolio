@@ -16,23 +16,18 @@ const TodoList = () => {
                 </div>
                 <div className="single-project-content">
                     <div className="single-project-intro">
-                        <p>An online todolist with user registration and saving todos to sql database. 
-                            This project was also aimed to practice the Angular framework. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-z6qc.onrender.com" target="_blank">
+                        <p>An online todolist with user registration and saving todos to sql database. <a rel="noreferrer" className="todolink" href="https://onlinetodolist-z6qc.onrender.com" target="_blank">
                                 Try it out.</a>                       
                         </p>
                     </div>
                     <div className="lesson-container">
-                        <h2  className="secondary-header lesson-header" >Knowledge</h2>
+                        <h2  className="secondary-header lesson-header" >Background</h2>
                         <p>
                             This project was done as a Angular/Express project. The database used was MySQL. 
                         </p>
                         <p>
-                            Skills learned during this project were creating own authorization with JWT and using SQL driven databases and to edit them.
-                            Protecting database from SQL injection. Checking user signup and login. Password hashing. SQL and Angular code deployment.
-                        </p>
-                        <p>
-                            This project came with valuable lessons about proberly splitting the code into parts. Using services, middleware...
-                            Also came with a valuable lesson that different types of OS have different implementations for css, for example scrollbars.
+                            The goal of this project was to create a Todo list that is accessible with user registration with any device via
+                            wifi. Learning goals were to use jwt tokens and creating own databases with user registration and login.
                         </p>
                     </div>
                 </div>

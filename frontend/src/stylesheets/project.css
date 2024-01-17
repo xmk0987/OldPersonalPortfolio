@@ -71,7 +71,9 @@
 }
 
 
-
+.firstVideo {
+    margin-bottom: 3rem;
+}
 
 .project-images-container{
     margin-top: 3rem;
@@ -104,7 +106,9 @@
 
 .single-project-video-container{
     display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .project-video{
@@ -117,6 +121,11 @@
 
 .analysisFolder{
     margin-bottom: 3rem;
+}
+
+.videoTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 900px){

@@ -20,17 +20,13 @@ const FastSpots = () => {
                         </p>
                     </div>
                     <div className="lesson-container">
-                        <h2  className="secondary-header lesson-header" >Knowledge</h2>
+                        <h2  className="secondary-header lesson-header" >Background</h2>
                         <p>
                             This project was done as a React/Express project. The database used was Redis. 
                         </p>
                         <p>
-                            Skills learned during this project were using sessions, cookies and authorization flows (Spotify uses OAuth).
-                            Knowledge about different frameworks and especially React in front and Express in back grew significantly.
-                        </p>
-                        <p>
-                            This project came with valuable lesssons for next projects.
-                            Such as remember to simplify code to smaller components, simplify design, don't forget to think about mobile design also from the start and make clear plans before you start.
+                            The goal was to create a third party webapp for Spotify which allows users to create playlist in a faster manner.
+                            Also was my first ever bigger JavaScript/Html project so was practicing all the basics in use and learning using third party API with authentication.
                         </p>
                     </div>
                 </div>
