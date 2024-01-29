@@ -7,6 +7,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to top left, var(--main-color) 0%, var(--main-color) 80%,  var(--secondary-color)100%);
+
 }
 
 
