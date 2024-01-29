@@ -1,10 +1,12 @@
 
 .about-container{
-    height: 100%; /* Onko 100vh hyvä vai pitäiskö pienentää*/
+    height: 80vh; /* Onko 100vh hyvä vai pitäiskö pienentää*/
     width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to top right, var(--main-color) 0%, var(--main-color) 80%,  var(--secondary-color)100%);
+
 }
 
 .about-center-container{
@@ -36,6 +38,7 @@
 .about-profile-image {
     max-width:600px;
     margin-bottom: 3rem;
+
 }
 
 
