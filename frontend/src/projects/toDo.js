@@ -3,8 +3,9 @@ import '../stylesheets/project.css';
 
 import studentVid from '../images/studentToDo.mp4';
 import teacherVid from '../images/teacherToDo.mp4';
-import teacherFront from '../images/teacherTodos.png'
-import teacherStudents from '../images/todoFront.png'
+import teacherFront from '../images/teacherTodos.png';
+import teacherStudents from '../images/todoFront.png';
+import todo_demo from '../images/todo_ready.png';
 
 
 const ToDo = () => {
@@ -14,12 +15,13 @@ const ToDo = () => {
             <div className="single-project-inner">
                 <h1 className="single-project-header">ToDo</h1>
                 <div className="single-project-header-image">
-                    <img src={teacherStudents} alt="Project by Onni"></img>
+                    <img src={todo_demo} alt="Project by Onni"></img>
+                
                 </div>
                 <div className="single-project-content">
                     <div className="single-project-intro">
                         <p>An online class management system for teachers or group leaders. Helps the teachers keep track of the students progress
-                             and helps the students to follow the lesson. <a rel="noreferrer" className="todolink" href="https://todo-ekwu.onrender.com" target="_blank">
+                             and helps the students to follow the lesson. Current image is the final design under construction. <a rel="noreferrer" className="todolink" href="https://todo-ekwu.onrender.com" target="_blank">
                                 Try it out.</a>                       
                         </p>
                     </div>
